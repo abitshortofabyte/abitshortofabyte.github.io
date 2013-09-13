@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Testing out this blogging dealioAnders Graverholt</title>
+
+    <link rel="stylesheet" href="/theme/css/main.css">
+    <link rel="stylesheet" href="/theme/css/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div><img src="" class="grv-img"/></div>
+        <div class="title"><a href="/">Anders Graverholt </a></div>
+        <div class="sub-title">ever a bit short of a byte</div>
+
+        <p>
+    <div class="view"><a href="/archives.html">Archives</a></div>
+</p>
+
+<!-- Social links -->
+<div class="social">
+<h4>Follow Me</h4>
+<ul>
+      <li><a href="http://facebook.com/anders.graverholt">basefook</a></li>
+      <li><a href="http://twitter.com/abitshortofabyte">tweets mah beats</a></li>
+  </ul>
+</div>
+
+      </header>
+      <section>
+      <section id="content" class="body">
+  <article>
+      <div class="article-title">
+        Testing out this blogging dealio
+      </div>
+
+    <div class="entry-content">
+      <p>
+<small>
+<abbr class="published" title="2013-08-24T00:00:00">
+  lø 24 august 2013
+</abbr> | 
+  tags: 
+      <a href="/tag/jim.html">jim</a>, 
+      <a href="/tag/light.html">light</a>, 
+      <a href="/tag/love.html">love</a>, 
+   -- (<a href="/testing-out-this-blogging-dealio.html" rel="bookmark">permalink</a>)
+</small>
+</p>      <p>What do the hashes do? Noone knows.</p>
+<p>There's a thicket of people set in line, trying to maintain their rules divine. They crow and scowl and sneer at each other, they should see instead, that we all are brothers.</p>
+
+          </div><!-- /.entry-content -->
+      </article>
+</section>
+      </section>
+      <footer>
+        <p><small>&copy; Anders Graverholt &mdash; Theme based on Sundown by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <!-- Scale fix -->
+    <script>
+      var metas = document.getElementsByTagName('meta');
+      var i;
+      
+      if (navigator.userAgent.match(/iPhone/i)) {
+        for (i=0; i<metas.length; i++) {
+          if (metas[i].name == "viewport") {
+            metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+          }
+        }
+      
+        document.addEventListener("gesturestart", gestureStart, false);
+      }
+
+      function gestureStart() {
+        for (i=0; i<metas.length; i++) {
+          if (metas[i].name == "viewport") {
+            metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
